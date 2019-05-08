@@ -25,7 +25,7 @@ class Network:
 
         # assign transfer function
         # self.transfer = dynet.rectify  # can be dynet.logistic or dynet.tanh as well.
-        self.transfer = dynet.rectify
+        self.transfer = dynet.cube
 
         # define the input dimension for the embedding layer.
         # here we assume to see 20 word embeddings
