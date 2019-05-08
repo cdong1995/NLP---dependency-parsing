@@ -86,4 +86,4 @@ if __name__ == '__main__':
     # output_p = 'cd_outputs/dev_part1.conll'
     input_p = os.path.abspath(sys.argv[1])
     output_p = os.path.abspath(sys.argv[2])
-    Decoder(m.score, m.actions).parse(input_p, output_p)
+    # Decoder(m.score, m.actions).parse(input_p, output_p)
